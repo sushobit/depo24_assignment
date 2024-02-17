@@ -69,8 +69,8 @@ export default function LoginForm(){
                         <UserAvatar imgPath={manImgPath}/>
                         <Form.Group className={styles.radio}>
                             <Form.Check type='radio' id='userGenderMan'
-                                        label='man' name="userGender"
-                                        value='man' onChange={onChangeGender}
+                                        label='Male' name="userGender"
+                                        value='Male' onChange={onChangeGender}
                                         required
                             />
                         </Form.Group>
@@ -81,9 +81,9 @@ export default function LoginForm(){
                         <div className={styles.radio}>
                             <Form.Check type='radio'
                                         id='userGenderWoman'
-                                        label='woman'
+                                        label='Female'
                                         name="userGender"
-                                        value='woman'
+                                        value='Female'
                                         onChange={onChangeGender}
                             />
                         </div>
