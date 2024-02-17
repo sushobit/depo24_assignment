@@ -1,0 +1,16 @@
+nav.wrap {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px 10px 0 0;
+  & div.userInfo {
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  nav.wrap {
+    & div.userInfo {
+      justify-content: space-between;
+    }
+  }
+}
+

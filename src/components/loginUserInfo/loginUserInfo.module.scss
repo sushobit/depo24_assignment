@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+  img {
+    width: 40px;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+
+    border-color: #0d6efd;
+  }
+}
+
+.name {
+  font-weight: bold;
+  color: #f8f9fa;
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    flex-direction: row;
+    img {
+      margin-left: 0;
+    }
+  }
+}
+

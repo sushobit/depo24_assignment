@@ -1,0 +1,19 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+
+  overflow: hidden;
+}
+.list {
+  height: calc(100% - 50px);
+  overflow: hidden;
+}
+ul {
+  height: 100%;
+  overflow: auto;
+  li {
+    overflow-wrap: break-word;
+  }
+}

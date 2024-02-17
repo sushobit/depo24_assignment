@@ -1,0 +1,21 @@
+.wrap {
+  height: calc(100% - 56px);
+
+  display: flex;
+  align-items: stretch;
+
+  padding: 1.5rem 1rem;
+
+  background-color: #eeeeee;
+  border-radius: 0 0 10px 10px;
+
+}
+.position {
+  height: 100%;
+  position: relative;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

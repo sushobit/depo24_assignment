@@ -1,0 +1,16 @@
+.wrap {
+  flex-grow: 1;
+  overflow: hidden;
+}
+.wrap2 {
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrap3 {
+  height: 100%;
+  overflow: hidden scroll;
+}
+.message {
+  margin-bottom: 10px;
+}

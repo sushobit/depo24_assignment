@@ -1,0 +1,18 @@
+.wrap {
+  padding-top: 1rem;
+  border-top: 2px solid #c0c0c0;
+}
+.sendBtn {
+  display: flex;
+  align-items: end;
+
+  height: 100%;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .sendBtn {
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+}

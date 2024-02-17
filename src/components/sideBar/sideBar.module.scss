@@ -1,0 +1,40 @@
+.closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.wrap {
+  padding-left: 0;
+  border-left: none;
+  height: 100%;
+
+  & > button{
+    position: absolute;
+    top: -4.25rem;
+    left: 0;
+
+    line-height: 0;
+  }
+}
+.list {
+  line-height: 0;
+  font-size: 1.2rem;
+}
+.body {
+  flex-direction: column;
+  height: 100%;
+  background-color: #eeeeee;
+}
+.openBtn {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    padding-left: 1rem;
+    border-left: 2px solid #c0c0c0;
+  }
+}
+

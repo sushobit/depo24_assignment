@@ -1,0 +1,22 @@
+.wrap {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.fixed {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .fixed {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 992px) {
+  .fixed {
+    width: 950px;
+  }
+}
