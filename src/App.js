@@ -11,9 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     const user = useSelector(selectAuthUser);
-    useEffect(() => {
-    document.title = "Chat App"; 
-      }, []);
+    document.title = "Chat App";
     return user.isLoggedIn ? (
         <Routes>
             <Route path="/chat"
