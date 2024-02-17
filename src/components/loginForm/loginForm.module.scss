@@ -30,6 +30,7 @@
 @media (min-width: 576px) {
   .wrap {
     width: 80%;
+    background-size: cover;
 
     img {
       width: 100%;
@@ -43,5 +44,6 @@
 @media (min-width: 768px) {
   .wrap {
     width: 500px;
+    background-size: cover;
   }
 }
