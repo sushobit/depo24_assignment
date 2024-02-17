@@ -1,7 +1,7 @@
 import React from 'react';
 import ChatPage from "./pages/chatPage";
 import LoginFormBlock from "./pages/homePage";
-
+import React, { useEffect } from 'react';
 import {Navigate, Route, Routes} from "react-router-dom";
 
 import {useSelector} from "react-redux";
@@ -11,7 +11,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     const user = useSelector(selectAuthUser);
-
+    useEffect(() => {
+    document.title = "Chat App"; 
+      }, []);
     return user.isLoggedIn ? (
         <Routes>
             <Route path="/chat"
