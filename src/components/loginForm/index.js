@@ -95,7 +95,7 @@ export default function LoginForm(){
             <Button className={styles.button}
                     variant="primary"
                     type="submit">
-                Sing in
+                Sign in
             </Button>
         </Form>
 
